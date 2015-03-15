@@ -1,5 +1,6 @@
 Feature: Web pages
 
-  Scenario: Nieszczescia chodza..
-    Given I am on "Nieszczescia.html"
+  Scenario: Nieszczescia...
+    Given I am on homepage
+    When I follow "nieszczescia"
     Then I should see "Nieszczęścia chodzą parami."
